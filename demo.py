@@ -92,7 +92,7 @@ class PDFChatbotApp:
             st.success(f"✅ PDF processed. Ready to chat!")
 
     def chat_input(self):
-        user_input = st.chat_input("Ask something about the PDF...")
+        user_input = st.chat_input("Ask something about the PDF. ( this is demo version, it can be further developed!)")
         return user_input
 
     def generate_answer(self, user_input):
